@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .fixed{
+    position: fixed;
+    width: 214px;
+    height: 144px;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+  }
+
+  .realitive{
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .box-center{
+    width: 560px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+  }
+
+  .box-right{
+    width: 250px;
+    height: 104px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+
+  }
+
+  p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
